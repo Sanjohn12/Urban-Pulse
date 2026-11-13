@@ -1,0 +1,23 @@
+{
+    "model_type": "RandomForestRegressor",
+    "training_rows": 11318,
+    "features": [
+        "LConn_wt",
+        "MAD500_wt",
+        "BtA500_wt",
+        "Floor_Inte",
+        "POI_Densit",
+        "Transit_Ac",
+        "IntDen_km2",
+        "land_use_e"
+    ],
+    "target": "total_acti",
+    "target_transform": "log1p",
+    "inverse_transform": "expm1",
+    "parameters": {
+        "n_estimators": 300,
+        "min_samples_leaf": 2,
+        "max_features": 1.0,
+        "random_state": 42
+    }
+}
