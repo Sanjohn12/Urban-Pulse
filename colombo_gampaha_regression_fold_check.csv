@@ -1,0 +1,6 @@
+fold,grid_cells,spatial_blocks,total_activity_mean,total_activity_median,total_activity_sum,study_area,block_size_m,requested_folds
+1,1793,91,6914.7228109314,3360.0,12398098.0,Colombo_Gampaha,2500,5
+2,1591,81,10326.96103079824,5467.0,16430195.0,Colombo_Gampaha,2500,5
+3,1392,70,15081.404454022988,7244.0,20993315.0,Colombo_Gampaha,2500,5
+4,1610,71,37848.21428571428,19459.0,60935625.0,Colombo_Gampaha,2500,5
+5,1378,66,56009.14513788099,39188.5,77180602.0,Colombo_Gampaha,2500,5
