@@ -1,0 +1,51 @@
+{
+    "model_type": "RandomForestRegressor",
+    "features": [
+        "LConn_wt",
+        "MAD500_wt",
+        "BtA500_wt",
+        "Floor_Inte",
+        "POI_Densit",
+        "Transit_Ac",
+        "IntDen_km2",
+        "land_use_e"
+    ],
+    "hour_columns": [
+        "activity_0",
+        "activity_1",
+        "activity_2",
+        "activity_3",
+        "activity_4",
+        "activity_5",
+        "activity_6",
+        "activity_7",
+        "activity_8",
+        "activity_9",
+        "activity10",
+        "activity11",
+        "activity12",
+        "activity13",
+        "activity14",
+        "activity15",
+        "activity16",
+        "activity17",
+        "activity18",
+        "activity19",
+        "activity20",
+        "activity21",
+        "activity22",
+        "activity23"
+    ],
+    "total_target": "total_acti",
+    "target_transform": "log1p",
+    "inverse_transform": "expm1",
+    "training_grid_count_total": 7764,
+    "training_grid_count_pulse": 7764,
+    "parameters": {
+        "n_estimators": 300,
+        "min_samples_leaf": 2,
+        "max_features": 1.0,
+        "random_state": 42
+    },
+    "sample_source": "C:\\Users\\sanojan\\Downloads\\Roaddd\\Colombo_Gampaha_Final\\spatial_cv_out_of_fold_predictions.csv"
+}
